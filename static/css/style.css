@@ -1,0 +1,126 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background: #343a40 !important;
+    padding: 15px 40px;
+    transition: 0.5s;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.site-navbar-target {
+    position: relative;
+    top: 0;
+    z-index: 999;
+}
+
+.hero {
+    background: url(images/bg_1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.about-container {
+    background: #f8f9fa;
+    padding: 7% 0;
+}
+
+.upload-container {
+    display: flex;
+    align-items: center;
+}
+
+.form-button {
+    padding: 14px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1em;
+}
+
+.form-button:hover {
+    background-color: #3c79e6;
+}
+
+.form-input {
+    width: calc(40% - 20px);
+    padding: 14px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+.form-input:hover,
+.form-input:focus {
+    border-color: #4285f4;
+}
+
+#uploaded-image-container {
+    margin-left: 90px;
+}
+
+#result-section {
+    border-top: 1px solid #ddd;
+    padding-top: 30px;
+}
+
+.result-heading {
+    font-size: 1.5em;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.result-text {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 0;
+    transition: opacity 0.5s ease;
+}
+
+
+
+#uploaded-image {
+    max-width: 250px; 
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+.learn-more-button
+{
+    padding: 14px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1em;
+}
+
+.learn-more-button-b
+{
+    padding: 14px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1em;
+    margin-left:3%
+}
